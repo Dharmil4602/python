@@ -42,18 +42,23 @@
 
 # print(dir(list)) ## This will shows how many methods we can use with list
 
-x = ["Hello", "There", "How", "Are", "You", 8, 10.6]
+# x = ["Hello", "There", "How", "Are", "You", 8, 10.6]
 # print("Length Of List x is: ", len(x)) ## Prints the length of the list
 
 # x.pop() ## Here last element if removed
 # x.append(11) ## Here element is added at last position
 # x.remove("There") ## Here selected element is removed from the list
 # del x ## Deletes the list
-print(x)
+# print(x)
 
 ## Likewise there are other methods in list
 
 ## List Data Type Ended
 
+## Tuple Data Type Starts
 
+## lists are written in square brackets [] while tuples are written in () brackets. Elements of tuple cannot be changed. i.e we cannot add or remove elements in tuple like we can do it in lists. Once tuple is created it will remain the same through out the program
+
+x = ("Bread", "Slice", "Mango", "Maza", 8, 10.6)
+print(x)
 
