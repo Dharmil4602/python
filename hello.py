@@ -60,5 +60,5 @@
 ## lists are written in square brackets [] while tuples are written in () brackets. Elements of tuple cannot be changed. i.e we cannot add or remove elements in tuple like we can do it in lists. Once tuple is created it will remain the same through out the program
 
 x = ("Bread", "Slice", "Mango", "Maza", 8, 10.6)
-print(x)
+print(x[2])
 
