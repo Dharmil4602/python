@@ -59,6 +59,35 @@
 
 ## lists are written in square brackets [] while tuples are written in () brackets. Elements of tuple cannot be changed. i.e we cannot add or remove elements in tuple like we can do it in lists. Once tuple is created it will remain the same through out the program
 
-x = ("Bread", "Slice", "Mango", "Maza", 8, 10.6)
-print(x[2])
+# x = ("Bread", "Slice", "Mango", "Maza", 8, 10.6)
+# print(x[2])
 
+## Tuples Data Type Ended
+
+## Dictionary Starts
+
+## Dictionary are nothing but the key value pairs. Here we access particular element with the help of Key.
+
+
+
+x = {"name":"Dharmil", "sname":"Shah", "age":21}
+# print(x["name"])
+# print(x["sname"])
+# print(x["age"])
+
+## If we want to change any particular value, we can do it with the help of dictionary.
+## Always mention the name of key in quotes.
+
+x["age"] = 22
+print(len(x)) ## prints the length of dictionary in terms of key value
+
+## Added element in the dictionary
+x["year"] = 2022
+
+## Removing element from dictionary
+x.pop("year")
+
+## For removing the last item in the dictionary, we'll be using: x.popItem() method
+
+x.popitem()
+print(x)
