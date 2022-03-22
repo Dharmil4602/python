@@ -20,17 +20,26 @@
 
 ## 2. Assignment Operator
 
-x = 2 ## Equals Operator
-print(x)
-x += 4 ## This is same as x = x + 4
-print(x)
-x -= 2 ## This is same as x = x - 2
-print(x)
-x *= 2 ## This Is Same As x = x * 2
-print(x)
-x /= 2 ## This Is Same As x = x / 2
-print(x)
-x %= 2 ## This Is Same As x = x % 2
-print(x)
-x **= 2 ## This Is Same As x = x ** 2
-print(x)
+# x = 2 ## Equals Operator
+# print(x)
+# x += 4 ## This is same as x = x + 4
+# print(x)
+# x -= 2 ## This is same as x = x - 2
+# print(x)
+# x *= 2 ## This Is Same As x = x * 2
+# print(x)
+# x /= 2 ## This Is Same As x = x / 2
+# print(x)
+# x %= 2 ## This Is Same As x = x % 2
+# print(x)
+# x **= 2 ## This Is Same As x = x ** 2
+# print(x)
+
+## Comparison Operators
+
+# 1. Equality Operator (==)
+# 2. Not Equal To Operator (!=)
+# 3. Greater Than Operator (>)
+# 4. Greater Than Equal To Operator (>=)
+# 5. Less Than Operator (<)
+# 6. Less Than Equal To Operator (<=)
