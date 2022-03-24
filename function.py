@@ -21,4 +21,8 @@ def add(a,b):
     c = a + b
     return c
 
-print(add(2,3))
+x = input("Enter First Number: ")
+y = input("Enter Second Number: ")
+x = int(x)
+y = int(y)
+print(add(x,y))
