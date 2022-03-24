@@ -17,12 +17,14 @@
 
 ## User Defined Function
 
-def add(a,b):
-    c = a + b
-    return c
+# def add(a,b):
+#     c = a + b
+#     return c
 
-x = input("Enter First Number: ")
-y = input("Enter Second Number: ")
-x = int(x)
-y = int(y)
-print(add(x,y))
+# x = input("Enter First Number: ")
+# y = input("Enter Second Number: ")
+# x = int(x)
+# y = int(y)
+# print(add(x,y))
+
+## TO FIND THAT HOW MANY METHODS ARE AVAILABLE FOR A PARTICULAR DATA TYPE USE dir("data type")
