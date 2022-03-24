@@ -60,13 +60,13 @@
 # 1. in ## Specifies whether the particular element is present in the list, tuple. If not present then it will return false
 # 2. not in ## Specifies whether the particular element is not present in the list, tuple. If not present then it will return true
 
-x = [1,2,3,4]
-print(2 in x)
-print(5 not in x)
-print(4 not in x)
+# x = [1,2,3,4]
+# print(2 in x)
+# print(5 not in x)
+# print(4 not in x)
 
-## Similarly we can check it for strings too.
+# ## Similarly we can check it for strings too.
 
-a = "Hey There"
-print("e" in a)
-print("T" not in a)
+# a = "Hey There"
+# print("e" in a)
+# print("T" not in a)
