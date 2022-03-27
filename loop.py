@@ -20,6 +20,16 @@
 #     x += 1
 
 ## Looping through the string
-x = "Hello"
-for i in x:
-    print(i)
+# x = "Hello"
+# for i in x:
+#     print(i)
+
+## Range Function
+# range(starting value or value, ending value or range, order)    
+
+# for x in range(10):
+#     print(x)
+
+ ## Here in below one, (4,100,2) means that the range will start from 4, end at 100 or near to 100, after every digit two number will be skipped which is the order
+for x in range(4,100,2):
+    print(x)
