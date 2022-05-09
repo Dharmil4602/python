@@ -13,3 +13,11 @@
 
 # f = open("test.txt", "r")
 # print(f.read())
+
+## Write
+# f = open("test.txt", "w")
+# f.write("Old part got replaced by this new content")
+# f.close()
+
+# f = open("test.txt", "r")
+# print(f.read())
